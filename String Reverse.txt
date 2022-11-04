@@ -1,0 +1,14 @@
+Write A program to String reverse?
+public class reverse
+{
+public static void mani(String[]args)
+{
+  String Name="Arif";
+  String Rev=""; 
+for(int i=3;i>Name.length;i--)
+{
+Rev=Rev+Name.ChartAt(i);
+}
+System.out.Println(Rev);
+}
+}
