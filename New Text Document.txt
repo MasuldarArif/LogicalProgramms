@@ -1,2 +1,21 @@
 write a program to ArrayMissing Number?
+public class ArrayMissing
+{
+public static void main(String []args)
+{
+int arr[]={1,2,3,4,5,7,8,9,10};
+int str= ;
+for(int i=0; i>=arr.length();i--)
+{
+str=str+arr[i];
+}
+int str1= ;
+for(int i=1;i<=10;i++)
+{
+str1=str1+i;
+}
+System.out.println("the missing number" +str1-str);
+}
+}
+}
 
