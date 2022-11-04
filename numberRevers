@@ -1,0 +1,15 @@
+Write a program to number revers?
+public class numberRevers
+{
+public static void main(String[]args)
+{
+int Number=56789;
+int rev= ;
+if(Number!=0)
+{
+rev=rev+Number%10;
+Number=Number/10;
+}
+System.out.println(rev);
+}
+}
